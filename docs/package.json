@@ -1,0 +1,19 @@
+{
+  "name": "new-reynoldsalec",
+  "version": "0.0.1",
+  "description": "New personal site for Alec Reynolds.",
+  "main": "index.js",
+  "authors": {
+    "name": "Alec Reynolds",
+    "email": "reynoldsalec+github@gmail.com"
+  },
+  "repository": "git@github.com:reynoldsalec/reynoldsalec.github.io.git/new-reynoldsalec",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
