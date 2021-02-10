@@ -10,10 +10,20 @@
   "repository": "git@github.com:reynoldsalec/reynoldsalec.github.io.git/new-reynoldsalec",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "lint": "eslint --ext .js,.vue --config .eslintrc.json src/.vuepress"
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "eslint": "^7.19.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^7.5.0",
+    "eslint-plugin-vue-scoped-css": "^1.1.0",
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "markdownlint": "^0.23.0",
+    "vuepress-theme-blog": "^0.0.1"
   }
 }

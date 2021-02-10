@@ -26,6 +26,7 @@ module.exports = {
    *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
+  theme: '@vuepress/blog',
   themeConfig: {
     repo: '',
     editLinks: false,
@@ -34,16 +35,16 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Home',
+        link: '/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Blog',
+        link: '/blog/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'About',
+        link: '/about/'
       }
     ],
     sidebar: {
