@@ -1,5 +1,5 @@
 ---
-date: 2021-02-06 22:55:00
+date: 2021-02-12 22:55:00
 title: "Review: The Meritocracy Trap"
 description: "The Meritocracy Trap delivers a persuasive diagnosis for America's widening equality gap, but is it limited by the lens of elite privilege?"
 tags:
