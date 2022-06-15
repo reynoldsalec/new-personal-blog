@@ -6,6 +6,13 @@ tags:
   - dev tools
 ---
 
+## DEPRECATED!!!
+Shortly after I wrote this post, one of the Vuepress 2.x maintianers [decided to implement `alias`](https://github.com/vuepress/vuepress-next/issues/104#issuecomment-1009903266) on all the default theme components. Use [that method](https://v2.vuepress.vuejs.org/reference/default-theme/extending.html#components-replacement) to override theme components!
+
+I've included the "legacy" post below, but know that it is outdated information and shouldn't be used in your project when using `alias` works great.
+
+## Legacy Post
+
 **tl;dr Because `theme-default` in Vuepress 2.x doesn't implement `alias`, you'll need to use the slots provided by `theme-default`'s Layout.vue.**
 
 Vuepress is a great way to get sites going quickly and it comes with a default theme that doesn't look half-bad, particularly if you're making a documentation site for a code project. However, there's always some assumption that the default theme ([`theme-default`](https://github.com/vuepress/vuepress-next/tree/main/packages/%40vuepress/theme-default)) makes that isn't going to jive with your plans for documentation domination. Typically this means you're going to want to edit one of the Vue components provided by `theme-default`.
@@ -15,7 +22,7 @@ In Vuepress 1.x, the fix was easy: simply creating a new component in your theme
 However, Vuepress 2.x made a few changes that breaks this ability:
 
 1. It [dropped finding components by convention](https://v2.vuepress.vuejs.org/guide/migration.html#conventional-files-change); you'll have to either explicitly load components OR use `@vuepress/plugin-register-components`.
-2. [`theme-default` doesn't use the "alias" functionality](https://github.com/vuepress/vuepress-next/issues/104), which is the recommended method for allowing theme authors to extend your theme's components: https://v2.vuepress.vuejs.org/advanced/cookbook/extending-a-theme.html#make-your-theme-extendable
+2. [`theme-default` doesn't use the "alias" functionality](https://github.com/vuepress/vuepress-next/issues/104), which is the recommended method for allowing theme authors to extend your theme's components: https://v2.vuepress.vuejs.org/reference/default-theme/extending.html#components-replacement
 
 ## The Almighty Slot
 
