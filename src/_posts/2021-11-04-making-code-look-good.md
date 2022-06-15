@@ -1,5 +1,5 @@
 ---
-date: 2021-11-04 22:55:00
+date: 2022-01-04 22:55:00
 title: "Displaying Code in Marketing Material: Why and How"
 description: "If you're marketing an open source project or commercial dev tool to developers, you'll want attractive ways to highlight code. Just make sure you're showing the right things for the right reasons."
 tags:
@@ -18,21 +18,27 @@ Side note: if you're the OSS maintainer that thinks "marketing" is for commercia
 
 ## Why to Include Code in Dev Tool Marketing
 
-- Many people rely on amalgamated graphics or conceptual diagrams to show something shiny. May work well for the suits, but can alienate developers.
-- The best marketing tries to focus on the true value props - the things you've tested and proven with customer research - and communicates them in the most succinct way possible.
-- Emotional appeals combined with meaty code is a winning combination.
+Code is complex. Why even bother including it in your marketing material for a dev tool?
 
-### Some Examples of Bad Dev Tool Marketing
+Many marketers rely on amalgamated graphics or conceptual diagrams to make enterprise software and other "boring" tools seem exciting. This may work well for the suits (particularly those who assigned budget to make said shiny graphics), but a polished veneer without substance can alienate developers.
 
-### Some Examples of Bad Code Samples in Dev Tool Marketing
+  > The best marketing tries to focus on the true value props - the things you've tested and proven with customer research - and communicates them in the most succinct way possible.
 
-### Examples of Good Code Sample Usage
+For developers, your value propositions should be clear answers to questions like...
 
-Static code: show me how easy your syntax is. Brief. Concicse. Self-explanatory.
+- "How does this make my job easier?"
+- "Does this solve a problem I experience now?"
+- "Will this tool enable me to do something cool/profitable/impressive to my boss?"
 
-Dynamic demos: show me how quick it is to go from 0 to "ah ha, cool!". What's the payoff frame? Can I get there in less than 3 seconds while making sense?
+Code can be a great way of answering this questions _when it's used correctly._ And if you can effectively combine meaty code samples with emotional appeals that strike to the core of the developer experience, you can easily elevate your dev tool marketing into the 99th percentile.
 
 ## How to Include Code in Dev Tool Marketing
+
+Broadly speaking, there are two types of "code" samples: static code samples and dynamic demos.
+
+A "static code sample" is a snippet of code. It's a great way to show developers how clear and easy your syntax is. It should be brief, concicse, and self-explanatory.
+
+A "dynamic demo" is typically a command line or IDE screengrab, showing short example of a developer using the tool in realtime. It should show the developer how quick it is to go from 0 to "ah ha, cool!" What's ultimate payoff screenshot at the end? Can I get there in less than 3 seconds while making sense to a casual (ie distracted) viewer?
 
 ### Making Static Code Look Great
 
