@@ -14,7 +14,7 @@ HOWEVER, with shifting of maintainers, we lost access to the Algolia application
 
 So in my copious free time I decided to untangle the ball of strings and re-boot our Algolia DocSearch integration.
 
-1. Apply for the Program
+## 1. Apply for the Program
 
 Fill out the form: https://docsearch.algolia.com/apply
 
@@ -24,7 +24,7 @@ If your index looks properly populated, you may be able to skip directly to step
 
 However, in our case we needed to setup the Crawler from scratch, since our index was out-of-date  
 
-2. Link the Crawler to Your Netlify Project
+## 2. Link the Crawler to Your Netlify Project
 
 On your Algolia dashboard's "Overview" page, you should see a link to "Install on your platform". Click that link and select the "Netlify" option.
 
@@ -34,13 +34,13 @@ When you select a Netlify project, Algolia will setup a crawler integration and 
 
 In your Algolia dashboard, you should see a new application created. Create an index in that application.
 
-3. Redeploy Your Netlify Project to Start Indexing
+## 3. Redeploy Your Netlify Project to Start Indexing
 
 To fill the index, go to your Netlify deploys, find the latest production deployment, and select the "Retry with latest branch commit" action under the "Options" dropdown button. 
 
 Redeploying your Netlify project will start Algolia indexing; go to your index to see it fill up with records.
 
-4. Install Front End Search Code
+## 4. Install Front End Search Code
 
 Finally, install the correct front end code; likely you'll be using something like this: https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/#install-the-frontend-bundle
 

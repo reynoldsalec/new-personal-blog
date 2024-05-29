@@ -16,14 +16,14 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
-    "eslint": "^7.19.0",
+    "eslint": "^9.3.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-vue": "^7.5.0",
-    "eslint-plugin-vue-scoped-css": "^1.1.0",
-    "vuepress": "^1.5.3"
+    "eslint-plugin-vue": "^9.26.0",
+    "eslint-plugin-vue-scoped-css": "^2.8.0",
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
-    "markdownlint": "^0.23.0",
+    "markdownlint": "^0.34.0",
     "vuepress-theme-blog": "^0.0.1"
   }
 }
