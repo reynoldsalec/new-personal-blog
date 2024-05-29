@@ -16,6 +16,7 @@ cd src/.vuepress/dist
 echo 'www.alecreynolds.com' > CNAME
 
 git init
+git checkout -b main
 git config --global user.email "1153738+reynoldsalec@users.noreply.github.com"
 git config --global user.name "Alec Reynolds"
 git add -A
