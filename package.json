@@ -9,8 +9,8 @@
   },
   "repository": "git@github.com:reynoldsalec/reynoldsalec.github.io.git/new-reynoldsalec",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build src",
     "lint": "eslint --ext .js,.vue --config .eslintrc.json src/.vuepress"
   },
   "license": "MIT",
