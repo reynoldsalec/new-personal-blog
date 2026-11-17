@@ -1,0 +1,18 @@
+{
+  "pages": 58,
+  "viewportChecks": 174,
+  "internalLinks": 707,
+  "screenshots": [
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/home-mobile.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/article-mobile.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/article-code-mobile.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/home-desktop.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/article-desktop.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/article-code-desktop.png"
+  ],
+  "knownMissingAssets": [
+    "/assets/img/posts/elguapo.jpg",
+    "/assets/img/posts/guardian-data-workflow-001.jpg"
+  ],
+  "errors": []
+}

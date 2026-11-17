@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from './PostList.astro';
+import { allPosts, category, categories, categoryUrl, type Category } from '../lib/posts';
+interface Props { selected?: Category; }
+const { selected = 'All' } = Astro.props;
+const posts = (await allPosts()).filter(post => selected === 'All' || category(post) === selected);
+---
+<Base title={selected === 'All' ? 'Alec Reynolds' : `${selected} writing`}>
+  <main id="main">
+    <section class="intro" aria-label="Introduction"><h1>Alec<br />Reynolds<span class="dot">.</span></h1><p>Notes on technology,<br />community, and the places<br />we share.</p></section>
+    <section id="writing" aria-label="Writing">
+      <div class="section-head"><span class="eyebrow">Writing / {selected === 'All' ? 'All entries' : selected}</span>
+        <nav class="filters" aria-label="Filter writing">{categories.map(name => <a class="filter" href={categoryUrl(name)} aria-current={selected === name ? 'page' : undefined}>{name}</a>)}</nav>
+      </div><PostList posts={posts} />
+    </section>
+  </main>
+</Base>

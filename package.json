@@ -1,29 +1,29 @@
 {
-  "name": "new-reynoldsalec",
-  "version": "0.0.1",
-  "description": "New personal site for Alec Reynolds.",
-  "main": "index.js",
-  "authors": {
-    "name": "Alec Reynolds",
-    "email": "reynoldsalec+github@gmail.com"
+  "name": "alec-reynolds-blog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.23.4"
   },
-  "repository": "git@github.com:reynoldsalec/reynoldsalec.github.io.git/new-reynoldsalec",
   "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build src",
-    "lint": "eslint --ext .js,.vue --config .eslintrc.json src/.vuepress"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@vuepress/theme-blog": "^2.3.3",
-    "eslint": "^9.3.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-vue": "^9.26.0",
-    "eslint-plugin-vue-scoped-css": "^2.8.0",
-    "vuepress": "^1.9.10"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs"
   },
   "dependencies": {
-    "markdownlint": "^0.34.0",
-    "vuepress-theme-blog": "^0.0.1"
+    "@astrojs/rss": "^4.0.0",
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^7.4.12"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.0",
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.56.0",
+    "cheerio": "^1.1.0",
+    "typescript": "^5.9.0"
   }
 }

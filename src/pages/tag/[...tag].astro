@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { allPosts, tagUrl } from '../../lib/posts';
+export async function getStaticPaths() {
+  const posts = await allPosts();
+  const tags = [...new Set(posts.flatMap(post => post.data.tags))].sort();
+  return [
+    { params: { tag: undefined }, props: { name: '', posts: [], tags } },
+    ...tags.map(name => ({ params: { tag: name }, props: { name, posts: posts.filter(post => post.data.tags.includes(name)), tags: [] } })),
+    { params: { tag: 'technology/page/2' }, props: { name: 'technology', posts: posts.filter(post => post.data.tags.includes('technology')).slice(5), tags: [] } },
+  ];
+}
+const { name, posts, tags } = Astro.props;
+---
+<Base title={name ? `Tagged: ${name}` : 'Tags'}>
+  <main id="main"><h1 class="archive-heading">{name ? `Tagged: ${name}` : 'Tags'}<span class="dot">.</span></h1>
+    <a class="back meta" href="/#writing">← All writing</a>
+    {name ? <PostList posts={posts} /> : <nav class="tags" aria-label="Tags">{tags.map(tag => <a href={tagUrl(tag)}>{tag}</a>)}</nav>}
+  </main>
+</Base>
