@@ -53,6 +53,8 @@ The final `npm audit` reports **12 high-severity dependency findings**, propagat
 
 `npm run build` writes the static site to `dist/`. `public/CNAME` retains `www.alecreynolds.com`; `.nojekyll` is copied for GitHub Pages compatibility. The site assumes hosting at the domain root and trailing-slash URLs.
 
-The GitHub Actions workflow validates builds and uploads preview and browser-evidence artifacts **only**. It does not publish to production. The old VuePress deploy script has been removed. Production hosting/publishing must be configured and approved separately; this migration does not change the live site or DNS.
+**Do not merge yet:** the active `.github/workflows/deploy.yml` is still the legacy Node 16 workflow calling removed `deploy.sh`. The current OAuth grant cannot push workflow changes. No Astro validation workflow is active yet.
+
+[Owner migration steps](docs/MIGRATION.md) explain how to replace it before merge, clear the unresolved audit gate, and retain the current GitHub Pages hosting/domain without cross-repository credentials. `docs/validate-site.yml` and `docs/deploy-site.yml` are **inactive templates**, respectively for source validation and manual, approval-gated publishing from the output repository. Local build/test commands passed; GitHub-hosted deployment has not been exercised. Nothing has been merged, deployed, or changed in production/DNS.
 
 You're welcome to use the code, but Alec Reynolds retains all rights to the written content.
