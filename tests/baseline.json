@@ -1,0 +1,192 @@
+{
+  "sourceCommit": "4f0c63dff3bdc20383408ddfe5b885ecf9113b58",
+  "publishedTree": "90f912661c42fd326457d54c9274205278727a98",
+  "posts": [
+    {
+      "file": "2014-10-08-data-journalism.md",
+      "url": "/2014/10/08/data-journalism/",
+      "title": "Data Journalism: Riots, Fires, and Spreadsheets"
+    },
+    {
+      "file": "2014-10-29-verge-tourist.md",
+      "url": "/2014/10/29/verge-tourist/",
+      "title": "Businesses on the VERGE of Sustainability"
+    },
+    {
+      "file": "2014-11-7-badcamp-2014-friday.md",
+      "url": "/2014/11/10/badcamp-2014-friday/",
+      "title": "BADCamp Notes and Happenings"
+    },
+    {
+      "file": "2014-12-3-christmas-list.md",
+      "url": "/2014/12/03/christmas-list/",
+      "title": "A Bad Materialist's Christmas List"
+    },
+    {
+      "file": "2016-03-06-nodejs-linode.md",
+      "url": "/2016/03/06/nodejs-linode/",
+      "title": "NodeJS on Linode"
+    },
+    {
+      "file": "2016-03-23-elasticsearch-quickstart.md",
+      "url": "/2016/03/23/elasticsearch-quickstart/",
+      "title": "Elasticsearch and Kibana Quickstart"
+    },
+    {
+      "file": "2016-08-26-digital-hostage.md",
+      "url": "/2016/08/26/digital-hostage/",
+      "title": "Don't be a Digital Hostage"
+    },
+    {
+      "file": "2018-09-05-3d-negotiation.md",
+      "url": "/2018/09/05/_3d-negotiation/",
+      "title": "What Web Developers and PMs Should Know About Negotiating Project Scope"
+    },
+    {
+      "file": "2021-02-06-nextdoor-and-the-rebirth-of-civil-discourse.md",
+      "url": "/2021/02/06/nextdoor-and-the-rebirth-of-civil-discourse/",
+      "title": "Nextdoor and the Rebirth of Civil Discourse"
+    },
+    {
+      "file": "2021-02-12-the-meritocracy-trap-review.md",
+      "url": "/2021/02/12/the-meritocracy-trap-review/",
+      "title": "Review: The Meritocracy Trap"
+    },
+    {
+      "file": "2021-03-11-bulk-exporting-expensify-receipt-images.md",
+      "url": "/2021/03/11/bulk-exporting-expensify-receipt-images/",
+      "title": "Bulk Exporting Expensify Receipt Images"
+    },
+    {
+      "file": "2021-07-19-gitlab-subscription-pricing.md",
+      "url": "/2021/07/19/gitlab-subscription-pricing/",
+      "title": "Analyzing GitLab's Subscription Pricing"
+    },
+    {
+      "file": "2021-11-04-making-code-look-good.md",
+      "url": "/2022/01/04/making-code-look-good/",
+      "title": "Displaying Code in Marketing Material: Why and How"
+    },
+    {
+      "file": "2021-12-03-resizing-docker-for-mac.md",
+      "url": "/2021/12/03/resizing-docker-for-mac/",
+      "title": "Resizing Docker for Mac Without the UI"
+    },
+    {
+      "file": "2021-12-10-overriding-theme-components-vuepress2.md",
+      "url": "/2021/12/10/overriding-theme-components-vuepress2/",
+      "title": "Overriding default theme components in Vuepress 2"
+    },
+    {
+      "file": "2022-6-15-auth0-cert-updating.md",
+      "url": "/2022/06/15/auth0-cert-updating/",
+      "title": "Encrypting a SAML Assertion using Auth0 as the IdP"
+    },
+    {
+      "file": "2023-05-11-algolia-docsearch-netlify.md",
+      "url": "/2023/05/11/algolia-docsearch-netlify/",
+      "title": "Algolia DocSearch w/Netlify"
+    },
+    {
+      "file": "2024-12-09-thank-you-trail-owner.md",
+      "url": "/2024/12/09/thank-you-trail-owner/",
+      "title": "Dear Trail Owner."
+    },
+    {
+      "file": "2025-04-22-california-trails-and-greenways.md",
+      "url": "/2025/04/22/california-trails-and-greenways/",
+      "title": "California Trails and Greenways"
+    },
+    {
+      "file": "2025-05-28-california-trails-and-greenways-2025-recap.md",
+      "url": "/2025/05/28/california-trails-and-greenways-2025-recap/",
+      "title": "California Trails and Greenways 2025 Recap"
+    }
+  ],
+  "files": [
+    {
+      "path": "src/_posts/2014-10-08-data-journalism.md",
+      "sha256": "a7713cef18cc4671b87e913ae45db16132f12211d7728477be5600506c3bba09"
+    },
+    {
+      "path": "src/_posts/2014-10-29-verge-tourist.md",
+      "sha256": "cf921e6c312f747d9f76a8355d50dc43eb2ca1abec0270c12aa1b7c85e8617da"
+    },
+    {
+      "path": "src/_posts/2014-11-7-badcamp-2014-friday.md",
+      "sha256": "c60edcf915dd66d7872dbe7fe1eacd2450f69df22af696cc55f9fe1e1bc8900d"
+    },
+    {
+      "path": "src/_posts/2014-12-3-christmas-list.md",
+      "sha256": "3f3ac44229f1265c28ef272147fd3f45505803cb5bfd504015d6a8a956dc681e"
+    },
+    {
+      "path": "src/_posts/2016-03-06-nodejs-linode.md",
+      "sha256": "dbd4523520cf19a3ccd74c7285886702ddb6536e1e7d358a920fc8fafc873e1e"
+    },
+    {
+      "path": "src/_posts/2016-03-23-elasticsearch-quickstart.md",
+      "sha256": "ae2d700846672d5ceffd5ae2e3990fabb44e2f7ea0a85e2599950486531350a5"
+    },
+    {
+      "path": "src/_posts/2016-08-26-digital-hostage.md",
+      "sha256": "f72965d1a1858e2905a003c2235012e5d8f50562c338a215af6a95b4b060f277"
+    },
+    {
+      "path": "src/_posts/2018-09-05-3d-negotiation.md",
+      "sha256": "203cb30612104bff91609bddc475b1f73944870c0427b119c63017d38a4548c3"
+    },
+    {
+      "path": "src/_posts/2021-02-06-nextdoor-and-the-rebirth-of-civil-discourse.md",
+      "sha256": "d3733844400908063e2f8ea61059abc1e35051608161092c5449bce75d3ff54d"
+    },
+    {
+      "path": "src/_posts/2021-02-12-the-meritocracy-trap-review.md",
+      "sha256": "70e86f9914b81a0490d17f9cdc0115303e2452353810797eff632d504b98fb90"
+    },
+    {
+      "path": "src/_posts/2021-03-11-bulk-exporting-expensify-receipt-images.md",
+      "sha256": "3b05b9c272b85ab761f123b1381ef574574c2372a6d8588c3865061cf003cef5"
+    },
+    {
+      "path": "src/_posts/2021-07-19-gitlab-subscription-pricing.md",
+      "sha256": "dcb3244772697fb4a39192715ff2d80f6b81500f0b9aa836baca75f51acb3e42"
+    },
+    {
+      "path": "src/_posts/2021-11-04-making-code-look-good.md",
+      "sha256": "0e478db0fa69951fbf8f550b89a5c4aafc6370bb136d7b4823e2e91c0da206c8"
+    },
+    {
+      "path": "src/_posts/2021-12-03-resizing-docker-for-mac.md",
+      "sha256": "dfd36a7602a9ce13612d2a559b4db03f9d39c35e7f923f0e7eb1ba7b48b1218d"
+    },
+    {
+      "path": "src/_posts/2021-12-10-overriding-theme-components-vuepress2.md",
+      "sha256": "598c6271ff7a9747cba7263733055a3c1be82bb4d4a008ea3ba78b77ba8074b2"
+    },
+    {
+      "path": "src/_posts/2022-6-15-auth0-cert-updating.md",
+      "sha256": "ccf162ae7b740ad77d84583d7027457267a919aa0c4ddd9b68f4f5b9c14b739b"
+    },
+    {
+      "path": "src/_posts/2023-05-11-algolia-docsearch-netlify.md",
+      "sha256": "b98b33f41f1c14fe9f65ac560ba3636a12709843a23ab19461d9115d263514bf"
+    },
+    {
+      "path": "src/_posts/2024-12-09-thank-you-trail-owner.md",
+      "sha256": "16b457567300d914d885aa25ae73c790acc96046169211abda38a28bfda84718"
+    },
+    {
+      "path": "src/_posts/2025-04-22-california-trails-and-greenways.md",
+      "sha256": "dd371ff105077adc64a4be5dd7be49172164f7a98ac36d47d86cea89e2a5b944"
+    },
+    {
+      "path": "src/_posts/2025-05-28-california-trails-and-greenways-2025-recap.md",
+      "sha256": "92cd2499855b99a73a70dc5603e8fc3d9fe0745ef1de53e2471bea0360eca20c"
+    },
+    {
+      "path": "public/images/gparted-example.png",
+      "sha256": "1ce4ae51557bb1153f0e1a3bd045f8d0bbee183679f8494cb8cdd85061aef7a6"
+    }
+  ]
+}

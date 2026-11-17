@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { allPosts } from '../../lib/posts';
+export async function getStaticPaths() {
+  const posts = await allPosts();
+  return [2, 3, 4].map(page => ({ params: { page: String(page) }, props: { page, posts: posts.slice((page - 1) * 5, page * 5) } }));
+}
+const { page, posts } = Astro.props;
+---
+<Base title={`Writing — page ${page}`}><main id="main">
+  <h1 class="archive-heading">Writing / {page}<span class="dot">.</span></h1>
+  <a class="back meta" href="/#writing">← All writing</a><PostList posts={posts} />
+</main></Base>

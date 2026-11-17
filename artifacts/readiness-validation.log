@@ -1,0 +1,178 @@
+npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+
+added 308 packages, and audited 309 packages in 7s
+
+104 packages are looking for funding
+  run `npm fund` for details
+
+12 high severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> alec-reynolds-blog@1.0.0 check
+> astro check
+
+13:03:25 [content] Syncing content
+13:03:26 [content] Synced content
+13:03:26 [types] Generated 1.13s
+13:03:26 [check] Getting diagnostics for Astro files in /home/missclawdy/workspace/alec-blog-astro...
+Result (18 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+> alec-reynolds-blog@1.0.0 build
+> astro build
+
+13:03:30 [content] Syncing content
+13:03:30 [content] Synced content
+13:03:30 [types] Generated 831ms
+13:03:30 [build] output: "static"
+13:03:30 [build] mode: "static"
+13:03:30 [build] directory: /home/missclawdy/workspace/alec-blog-astro/dist/
+13:03:30 [build] Collecting build info...
+13:03:30 [build] ✓ Completed in 885ms.
+13:03:30 [build] Building static entrypoints...
+13:03:30 [vite] ✓ built in 315ms
+13:03:30 [vite] ✓ built in 23ms
+13:03:30 [build] Rearranging server assets...
+
+ generating static routes 
+13:03:30   ├─ /404.html (+11ms) 
+13:03:30   ├─ /category/tech/index.html (+5ms) 
+13:03:30   ├─ /category/trails/index.html (+2ms) 
+13:03:30   ├─ /category/thoughts/index.html (+3ms) 
+13:03:30   ├─ /page/2/index.html (+3ms) 
+13:03:30   ├─ /page/3/index.html (+5ms) 
+13:03:30   ├─ /page/4/index.html (+2ms) 
+13:03:30   ├─ /rss.xml (+39ms) 
+13:03:31   ├─ /tag/index.html (+3ms) 
+13:03:31   ├─ /tag/California/index.html (+2ms) 
+13:03:31   ├─ /tag/Christmas/index.html (+2ms) 
+13:03:31   ├─ /tag/Drupal/index.html (+1ms) 
+13:03:31   ├─ /tag/Elasticsearch/index.html (+1ms) 
+13:03:31   ├─ /tag/Kibana/index.html (+1ms) 
+13:03:31   ├─ /tag/LinkedIn/index.html (+1ms) 
+13:03:31   ├─ /tag/Linode/index.html (+2ms) 
+13:03:31   ├─ /tag/Medium/index.html (+2ms) 
+13:03:31   ├─ /tag/NodeJS/index.html (+2ms) 
+13:03:31   ├─ /tag/Twitter/index.html (+2ms) 
+13:03:31   ├─ /tag/business/index.html (+2ms) 
+13:03:31   ├─ /tag/community/index.html (+2ms) 
+13:03:31   ├─ /tag/content strategy/index.html (+2ms) 
+13:03:31   ├─ /tag/data/index.html (+2ms) 
+13:03:31   ├─ /tag/data visualization/index.html (+2ms) 
+13:03:31   ├─ /tag/dev tools/index.html (+2ms) 
+13:03:31   ├─ /tag/economics/index.html (+2ms) 
+13:03:31   ├─ /tag/environment/index.html (+2ms) 
+13:03:31   ├─ /tag/foothills/index.html (+2ms) 
+13:03:31   ├─ /tag/journalism/index.html (+2ms) 
+13:03:31   ├─ /tag/politics/index.html (+3ms) 
+13:03:31   ├─ /tag/product/index.html (+2ms) 
+13:03:31   ├─ /tag/products/index.html (+2ms) 
+13:03:31   ├─ /tag/programming/index.html (+2ms) 
+13:03:31   ├─ /tag/strategy/index.html (+2ms) 
+13:03:31   ├─ /tag/sustainability/index.html (+2ms) 
+13:03:31   ├─ /tag/technology/index.html (+2ms) 
+13:03:31   ├─ /tag/trails/index.html (+2ms) 
+13:03:31   ├─ /tag/technology/page/2/index.html (+3ms) 
+13:03:31   ├─ /index.html (+4ms) 
+13:03:31   ├─ /2025/05/28/california-trails-and-greenways-2025-recap/index.html (+5ms) 
+13:03:31   ├─ /2025/04/22/california-trails-and-greenways/index.html (+4ms) 
+13:03:31   ├─ /2024/12/09/thank-you-trail-owner/index.html (+6ms) 
+13:03:31   ├─ /2023/05/11/algolia-docsearch-netlify/index.html (+6ms) 
+13:03:31   ├─ /2022/06/15/auth0-cert-updating/index.html (+6ms) 
+13:03:31   ├─ /2022/01/04/making-code-look-good/index.html (+5ms) 
+13:03:31   ├─ /2021/12/10/overriding-theme-components-vuepress2/index.html (+6ms) 
+13:03:31   ├─ /2021/12/03/resizing-docker-for-mac/index.html (+5ms) 
+13:03:31   ├─ /2021/07/19/gitlab-subscription-pricing/index.html (+6ms) 
+13:03:31   ├─ /2021/03/11/bulk-exporting-expensify-receipt-images/index.html (+5ms) 
+13:03:31   ├─ /2021/02/12/the-meritocracy-trap-review/index.html (+10ms) 
+13:03:31   ├─ /2021/02/06/nextdoor-and-the-rebirth-of-civil-discourse/index.html (+5ms) 
+13:03:31   ├─ /2018/09/05/_3d-negotiation/index.html (+6ms) 
+13:03:31   ├─ /2016/08/26/digital-hostage/index.html (+6ms) 
+13:03:31   ├─ /2016/03/23/elasticsearch-quickstart/index.html (+5ms) 
+13:03:31   ├─ /2016/03/06/nodejs-linode/index.html (+4ms) 
+13:03:31   ├─ /2014/12/03/christmas-list/index.html (+6ms) 
+13:03:31   ├─ /2014/11/10/badcamp-2014-friday/index.html (+5ms) 
+13:03:31   ├─ /2014/10/29/verge-tourist/index.html (+5ms) 
+13:03:31   ├─ /2014/10/08/data-journalism/index.html (+5ms) 
+13:03:31 ✓ Completed in 278ms.
+
+13:03:31 [build] ✓ Completed in 678ms.
+13:03:31 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+13:03:31 [build] 58 page(s) built in 1.61s
+13:03:31 [build] Complete!
+
+> alec-reynolds-blog@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: all published tag and pagination archives remain reachable
+ok 1 - all published tag and pagination archives remain reachable
+  ---
+  duration_ms: 50.758046
+  type: 'test'
+  ...
+# Subtest: every original Markdown file and asset is byte-for-byte preserved
+ok 2 - every original Markdown file and asset is byte-for-byte preserved
+  ---
+  duration_ms: 2.371115
+  type: 'test'
+  ...
+# Subtest: all published article URLs render their original title
+ok 3 - all published article URLs render their original title
+  ---
+  duration_ms: 1.975441
+  type: 'test'
+  ...
+# Subtest: homepage lists all posts chronologically and all four filters work without JS
+ok 4 - homepage lists all posts chronologically and all four filters work without JS
+  ---
+  duration_ms: 37.534073
+  type: 'test'
+  ...
+# Subtest: RSS and sitemap include every original article URL
+ok 5 - RSS and sitemap include every original article URL
+  ---
+  duration_ms: 0.272266
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 258.88548
+
+> alec-reynolds-blog@1.0.0 test:browser
+> node tests/browser.mjs
+
+{
+  "pages": 58,
+  "viewportChecks": 174,
+  "internalLinks": 707,
+  "screenshots": [
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/home-mobile.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/article-mobile.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/article-code-mobile.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/home-desktop.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/article-desktop.png",
+    "/home/missclawdy/workspace/alec-blog-astro/artifacts/article-code-desktop.png"
+  ],
+  "knownMissingAssets": [
+    "/assets/img/posts/elguapo.jpg",
+    "/assets/img/posts/guardian-data-workflow-001.jpg"
+  ],
+  "errors": []
+}

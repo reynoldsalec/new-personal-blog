@@ -1,0 +1,9 @@
+---
+import Index from '../../components/Index.astro';
+import { categories } from '../../lib/posts';
+export function getStaticPaths() {
+  return categories.filter(name => name !== 'All').map(name => ({ params: { category: name.toLowerCase() }, props: { selected: name } }));
+}
+const { selected } = Astro.props;
+---
+<Index selected={selected} />

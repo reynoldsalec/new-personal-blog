@@ -1,0 +1,24 @@
+---
+import { render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { allPosts, url, category, categoryUrl, tagUrl } from '../lib/posts';
+export async function getStaticPaths() {
+  return (await allPosts()).map(post => ({ params: { post: url(post).slice(1, -1) }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+const date = post.data.date.toISOString().slice(0, 10);
+---
+<Base title={post.data.title} description={post.data.description}>
+  <main id="main" class="article-page">
+    <a class="back meta" href="/#writing">← All writing</a>
+    <article>
+      <header class="article-header"><div class="meta article-meta"><time datetime={date}>{date}</time><a href={categoryUrl(category(post))}>{category(post)}</a></div>
+        <h1>{post.data.title}</h1><p class="dek">{post.data.description}</p>
+      </header>
+      <div class="prose"><Content /></div>
+      <nav class="tags" aria-label="Article tags">{post.data.tags.map(tag => <a href={tagUrl(tag)}>{tag}</a>)}</nav>
+    </article>
+    <a class="back meta" href="/#writing">← Back to all writing</a>
+  </main>
+</Base>
